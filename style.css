@@ -272,7 +272,7 @@ footer a:hover{
 }
 @media (max-width:320px){
 	.logo a img {width: 81%;}
-	#slider {height: 520px;}
+	#slider {height: 460px;}
 	.uslugi-grids {margin: 1em 0;}
 }
 
