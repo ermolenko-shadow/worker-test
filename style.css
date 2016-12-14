@@ -269,10 +269,13 @@ footer a:hover{
 	.slide-text h3{margin-bottom: 10px;}
 	.slide-img{padding: 0 !important;}
 	.uslugi-grids {margin: 3em 0;}
+	.uslugi-info{width: 270px;}
 }
 @media (max-width:320px){
 	.logo a img {width: 81%;}
 	#slider {height: 460px;}
 	.uslugi-grids {margin: 1em 0;}
+	.uslugi-info{width: 230px;}
+	#order h3 a {font: 100% Panton;}
 }
 
