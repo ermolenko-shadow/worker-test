@@ -263,7 +263,7 @@ footer a:hover{
 	footer{border-top: 2px solid #0969a2;}
 }
 @media (max-width:480px){
-	#slider {height: 500px;}
+	#slider {height: 400px;}
 	.slide-text{height: auto;padding-bottom: 10px;}
 	.slide-text h3{margin-bottom: 10px;}
 	.slide-img{padding: 0 !important;}
@@ -271,6 +271,7 @@ footer a:hover{
 }
 @media (max-width:320px){
 	.logo a img {width: 81%;}
+	#slider {height: 500px;}
 	.uslugi-grids {margin: 1em 0;}
 }
 
