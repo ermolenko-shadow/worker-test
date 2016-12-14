@@ -219,19 +219,17 @@ h1,h2{
 }
 /*--contacts--*/
 #contacts {
-	background: #4a4a4a;
-	padding: 10px 0;
+	padding: 30px 0;
 	min-height:100px; 
 }
 footer p,footer a{
-	color: #fff;
+	color: #000;
 	font: 140% Arial;
 	text-align: left;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 }
 footer a:hover{
-	text-decoration: underline;
-	color: #fff;
+	color: #0969a2;
 }
 #dev a,#dev{
 	font: 120% Arial;
