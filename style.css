@@ -209,9 +209,15 @@ h1,h2{
 	margin: 4em auto; 
 	padding-top: 20px;
 }
+#order h3{
+	font: bold 280% Arial;
+	text-align: center;
+}
+#order h3 a{
+	font: 120% Panton;
+}
 #order p{
 	text-align: center;
-	/*font: bold 120% Arial !important;*/
 	padding: 30px 0;
 }
 #order p button{
