@@ -272,6 +272,7 @@ footer a:hover{
 	.uslugi-grids {
 		margin: 2em 0 1em 0;
 	}
+	.animation{display: none;}
 }
 @media (max-width:480px){
 	#slider ul li{
