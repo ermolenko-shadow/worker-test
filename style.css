@@ -149,6 +149,7 @@ h1,h2{
 	margin-bottom: 3em;
 	padding-bottom: 20px;
 	background: #0969a2;
+	width:291px;
 }
 /*-- //uslugi --*/
 /*--otzyvy--*/
@@ -271,7 +272,7 @@ footer a:hover{
 }
 @media (max-width:320px){
 	.logo a img {width: 81%;}
-	#slider {height: 500px;}
+	#slider {height: 520px;}
 	.uslugi-grids {margin: 1em 0;}
 }
 
