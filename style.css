@@ -54,7 +54,7 @@ p.orange {
 }
 .logo p{
 	text-align: left;
-	font: bold 150% Arial;
+	font: normal 150% Helvetica;;
 }
 .header-right p,.header-right a{
 	text-align: left;
