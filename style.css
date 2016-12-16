@@ -173,19 +173,19 @@ h1,h2{
 	border-radius: 4px;
 }
 #adv1 {
-	background: #848484 url(img/savings_.png) no-repeat 50% 10px;
+	background: #4a4a4a url(img/savings_.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv2 {
-	background: #848484 url(img/worker.png) no-repeat 50% 10px;
+	background: #4a4a4a url(img/worker.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv3 {
-	background: #848484 url(img/calendar.png) no-repeat 50% 10px;
+	background: #4a4a4a url(img/calendar.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv4 {
-	background: #848484 url(img/heavy.png) no-repeat 50% 10px;
+	background: #4a4a4a url(img/heavy.png) no-repeat 50% 10px;
 	height: 230px;
 }
 	
@@ -207,6 +207,7 @@ h1,h2{
 }
 #order h3 a{
 	font: 120% Helvetica;
+	color:#dd4d42;
 }
 #order p{
 	text-align: center;
