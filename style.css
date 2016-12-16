@@ -169,21 +169,23 @@ h1,h2{
 	margin-top: 2em;
 	float: left;
 	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
 }
 #adv1 {
-	background: #848484 url(img/savings.png) no-repeat 50% 10px;
+	background: #848484 url(img/savings_.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv2 {
-	background: #848484 url(img/mechanic.png) no-repeat 50% 10px;
+	background: #848484 url(img/worker.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv3 {
-	background: #848484 url(img/clock-time.png) no-repeat 50% 10px;
+	background: #848484 url(img/calendar.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv4 {
-	background: #848484 url(img/timetable.png) no-repeat 50% 10px;
+	background: #848484 url(img/heavy.png) no-repeat 50% 10px;
 	height: 230px;
 }
 	
