@@ -173,19 +173,19 @@ h1,h2{
 	border-radius: 4px;
 }
 #adv1 {
-	background: #a4a4a4 url(img/savings_.png) no-repeat 50% 10px;
+	background: url(img/savings_.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv2 {
-	background: #a4a4a4 url(img/worker.png) no-repeat 50% 10px;
+	background: url(img/worker.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv3 {
-	background: #a4a4a4 url(img/calendar.png) no-repeat 50% 10px;
+	background: url(img/calendar.png) no-repeat 50% 10px;
 	height: 230px;
 }
 #adv4 {
-	background: #a4a4a4 url(img/heavy.png) no-repeat 50% 10px;
+	background: url(img/heavy.png) no-repeat 50% 10px;
 	height: 230px;
 }
 	
