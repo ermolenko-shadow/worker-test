@@ -124,7 +124,8 @@ h1,h2{
 /*--/introducing--*/
 /*--uslugi--*/
 .uslugi-grids {
-	margin: 2em 0;
+	margin-top: 2em;
+	background:#0969a2;
 }
 .uslugi-img{
 	margin: 0 auto;
@@ -162,7 +163,8 @@ h1,h2{
 	  margin-top: 2em;
 }
 #advances h2{
-	  color: #DD4D42;
+	margin:1em;
+	color: #DD4D42;
 }
 .advance{
 	margin-top: 2em;
