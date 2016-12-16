@@ -86,7 +86,7 @@ h1,h2{
 	background: #0969a2;
 	text-align: left;
 	height: 100%;
-	padding-top:5px;
+	padding:5px 0 0 0 !important;
 }
 .slide-text h2{
 	/*font: 280% Panton; */
@@ -94,12 +94,14 @@ h1,h2{
 	text-align: left;
 	color:#fff;
 	margin: 10px 0 120px 0;
+	padding: 0 15px 0 15px;
 }
 
 .slide-text p{
 	background-color: rgba(255, 255, 255, 0.2);
 	font: bold 150% Helvetica;
 	color: #fff;
+	margin: 0 15px 0 15px;
 }
 
 .slide-img{
