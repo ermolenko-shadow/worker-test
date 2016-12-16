@@ -6,6 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="заказ вызов грузчики, переезд, такелажные работы, погрузочно-разгрузочные работы, перенос мебели, погрузка, разгрузка в Минске" />
 <script> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 <!-- bootstrap-css -->
 <link href="css/bootstrap.min.css" rel="stylesheet" media="all" />
 <!--// bootstrap-css -->
@@ -14,6 +16,55 @@
 <!--// css -->
 </head>
 <body>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade popup_bg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="background-color: #CCCCCC">
+	
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="popup_window__title" id="myModalLabel">Заявка на поиск рабочих</h4>
+      </div>
+	  <form action="http://worker.16mb.com/register_order.php" method="post" id="order_call_form">
+      <div class="popup_window__content">
+       
+		   <input class="popup_window__input" type="text" name="name" placeholder="Ваше имя" />			
+			<input class="popup_window__input" type="text" name="phone" placeholder="Ваш телефон" />
+			
+			<select class="popup_window__input" name="topic">
+			  <option value="1">Разовая работа</option>
+			  <option value="2">Переезд</option>
+			  <option value="3">Земляные работы</option>
+			  <option value="4">Другое</option>
+			</select>
+			 <input class="popup_window__input" type="text" name="count" placeholder="Количество человек" />
+
+      </div>
+	  
+      <div class="modal-footer">
+    <!--    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button> -->
+         <input type="submit" class="btn_submit_form" value="Отправить заявку" />
+      </div>
+	</form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 <div id="page" class="container" style="background-color: #F2F3F7;">
 
@@ -32,7 +83,7 @@
 			<!-- <a href="#"><img class="social" src="img/vk-logo.png"/></a>
 			<a href="#"><img class="social" src="img/instagram-logo.png"/></a> -->
 			<p><a href="tel:+375298057779">+375(29)8057779</a></p>
-			<p><button class="btn btn-success btn-large">Заявка на персонал</button></p>
+			<p><button type="button" class="btn btn-success btn-large" data-toggle="modal" data-target="#myModal">Заявка на персонал</button></p>
 		</div>
 		<div class="clearfix"> </div>
 		</div>
@@ -140,9 +191,9 @@
 <!--/reviews-->
 <div id="order" class="row">
 	<h3>Заказать разнорабочих в Минске и Минском районе можно по телефону или оставив заявку на сайте<br /><a href="tel:+375295353585">+375-29-5353585</a></h3>
-	<p><button class="btn btn-warning">Заявка на персонал</button></p>
+	<p><button type="button" class="btn btn-success btn-large" data-toggle="modal" data-target="#myModal">Заявка на персонал</button></p>
 	<h3>Одноразовые работы для разнорабочих, грузчиков в Минске и Минском районе</h3>
-	<p><button class="btn btn-success">Хочу работать!</button></p>
+	<p><button class="btn btn-success" onclick="window.location.href='http://worker.16mb.com/register_worker.php'">Хочу работать!</button></p>
 </div>
 <!--/Content-End-Here-->
 <div class="row" >
@@ -174,6 +225,9 @@
 <!--/footer-->
 </div>
 
+
+
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 	<!--js-->
 	<!--/js-->	
