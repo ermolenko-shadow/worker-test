@@ -169,7 +169,7 @@ h1,h2{
 	margin-top: 2em;
 	float: left;
 	width: 100%;
-	border: 1px solid #ddd;
+	border: 2px solid #ddd;
 	border-radius: 4px;
 }
 #adv1 {
@@ -191,7 +191,7 @@ h1,h2{
 	
 .adv-text{
 	display: block;
-	color: #fff;
+	color: #0969a2;
 	text-align: center;
 	font: 180% Helvetica;
 	margin: 160px 5px 5px;
