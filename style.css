@@ -138,7 +138,7 @@ h1,h2{
     
 }
 .uslugi-info h3{
-    
+	padding-top:5px;
 	font: 180% Helvetica !important;
 	color: #fff;
 	margin: 0;
